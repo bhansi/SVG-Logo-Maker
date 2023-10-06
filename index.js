@@ -56,6 +56,6 @@ inquirer
             response.shape === "Circle" ? Circle :
             response.shape === "Square" ? Square :
                                           Triangle
-            )(response.fill, response.textColor, response.text).render()
+            )(response.text, response.textColor, response.fill).render()
         );
     });
