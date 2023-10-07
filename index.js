@@ -64,7 +64,13 @@ function writeToFile(logo) {
     fs.writeFile(
         "logo.svg",
         logo,
-        (error) => error ? console.log("\x1b[91m%s\x1b[0m", "Error writing to file: " + error) : console.log("\x1b[93m%s\x1b[0m", "Generated logo.svg")
+        (error) => {
+            console.log(
+                error ?
+                `\n\x1b[91mError writing to file: ${error}\x1b[0m` :
+                "\n\x1b[93mGenerated logo.svg\x1b[0m"
+            );
+        }
     );
 }
 
