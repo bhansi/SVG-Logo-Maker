@@ -15,10 +15,10 @@ The user provides input on text preferences and shape preferences and the progra
 ## Installation
 
 Follow the following steps to install this program on a local machine:<br>
-    1. Open a terminal on a local machine<br>
-    2. Make/change directories to the directory in which the repository will be cloned<br>
-    3. Clone this repository<br>
-    4. Run "npm install" to install the required dependancies and packages
+1. Open a terminal on a local machine<br>
+2. Make/change directories to the directory in which the repository will be cloned<br>
+3. Clone this repository<br>
+4. Run "npm install" to install the required dependancies and packages
 
 ## Usage
 
